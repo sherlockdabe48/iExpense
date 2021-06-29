@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E8ABE5E268AD2F70028C855 /* ExpenseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8ABE5D268AD2F70028C855 /* ExpenseItem.swift */; };
+		9E8ABE60268AE13F0028C855 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E8ABE5F268AE13F0028C855 /* AddView.swift */; };
 		9EE87DD7268999580071268E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE87DD6268999580071268E /* AppDelegate.swift */; };
 		9EE87DD9268999580071268E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE87DD8268999580071268E /* SceneDelegate.swift */; };
 		9EE87DDB268999580071268E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE87DDA268999580071268E /* ContentView.swift */; };
@@ -16,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E006148268AF50700B3D1DB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		9E8ABE5D268AD2F70028C855 /* ExpenseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseItem.swift; sourceTree = "<group>"; };
+		9E8ABE5F268AE13F0028C855 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
 		9EE87DD3268999580071268E /* iExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EE87DD6268999580071268E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EE87DD8268999580071268E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +45,7 @@
 		9EE87DCA268999580071268E = {
 			isa = PBXGroup;
 			children = (
+				9E006148268AF50700B3D1DB /* README.md */,
 				9EE87DD5268999580071268E /* iExpense */,
 				9EE87DD4268999580071268E /* Products */,
 			);
@@ -59,6 +65,8 @@
 				9EE87DD6268999580071268E /* AppDelegate.swift */,
 				9EE87DD8268999580071268E /* SceneDelegate.swift */,
 				9EE87DDA268999580071268E /* ContentView.swift */,
+				9E8ABE5F268AE13F0028C855 /* AddView.swift */,
+				9E8ABE5D268AD2F70028C855 /* ExpenseItem.swift */,
 				9EE87DDC268999580071268E /* Assets.xcassets */,
 				9EE87DE1268999590071268E /* LaunchScreen.storyboard */,
 				9EE87DE4268999590071268E /* Info.plist */,
@@ -147,7 +155,9 @@
 			files = (
 				9EE87DD7268999580071268E /* AppDelegate.swift in Sources */,
 				9EE87DD9268999580071268E /* SceneDelegate.swift in Sources */,
+				9E8ABE60268AE13F0028C855 /* AddView.swift in Sources */,
 				9EE87DDB268999580071268E /* ContentView.swift in Sources */,
+				9E8ABE5E268AD2F70028C855 /* ExpenseItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
